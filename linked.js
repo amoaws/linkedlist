@@ -29,7 +29,7 @@ display(){
 	let output = "";
 	while(current !==null){
 	  output += current.data + " ";
-	  current - current.next;
+	  current = current.next;
 	}
 
 	document.getElementById("output").textContent = output;
